@@ -1,0 +1,23 @@
+{
+  "variables": [
+    ["{{title}}", "My Test Title"],
+    ["{{domain}}", "mysite.com"],
+    ["{{url}}", "https://mysite.com"],
+
+    ["{{The Journey}}", "The Journey"],
+    ["{{About}}", "About"],
+    ["{{Author Name}}", "Author Name"],
+    ["{{Testimonials}}", "Testimonials"],
+    ["{{Buy Now}}", "Buy Now"]
+  ],
+  "parts": [
+    "_start",
+    "navigation",
+    "hero-events",
+    "video-products",
+    "event-details",
+    "footer",
+    "modal",
+    "_stop"
+  ]
+}

@@ -1,0 +1,133 @@
+/**********************
+Global Styles
+**********************/
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/** Fixing bootstrap columns for safari **/
+
+.row:after,
+.row:before {
+  display: inline-block !important;
+}
+
+body {
+  @include body;
+  letter-spacing: 0;
+  overflow-x: hidden;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: $link-hover-decoration;
+  outline: 0;
+}
+
+section {
+  padding: $section-padding-base;
+}
+
+.container {
+  max-width: $container;
+}
+
+.embed-container {
+  @include embed-container;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  @include embed-video-view;
+}
+
+.section-title {
+  @include section-title;
+}
+
+.sub-heading {
+  @include sub-heading;
+}
+
+strike {
+  color: $strike;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.sale-text {
+  @include sale;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+/* Buttons */
+
+.btn-prime,
+.btn-prime:link,
+.btn-prime:visited {
+  @include base-btn;
+}
+
+.btn-prime:hover {
+  opacity: 0.9;
+}
+
+.btn-prime-dark,
+.btn-prime-dark:focus,
+.btn-prime-dark:hover {
+  @include button-dark;
+}
+
+.btn-prime-border,
+.btn-prime-border:focus,
+.btn-prime-border:hover {
+  @include button-border;
+}
+
+.flex-container {
+  @include flex-row-centered;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,36 @@
+//
+// Variables
+//
+//== General
+$container: 1140px;
+$container-md: 1060px;
+$center-transform: translate(-50%, -50%);
+$initial-display: initial;
+$section-padding-base: 80px 0;
+$transition: all 0.3s ease-in-out;
+$transparent: transparent;
+$width-full: 100%;
+$width-half: 50%;
+//== Colors
+$body-text-color: #333;
+$light-grey: #f8f8f8;
+$light-grey-2: #ddd;
+$primary: #000;
+$sub-heading: #505050;
+$strike: #797979;
+$strike-btn: #9a9a9a;
+$white: #fff;
+$black: #000;
+$gold: #9e9230;
+// Links
+$link-color: $primary;
+$link-hover-decoration: none;
+//== Typography
+$font-family-base: 'Source Sans Pro',
+sans-serif;
+$font-size-default: 16px;
+$font-weight-light: 300;
+$font-weight-heavy: 700;
+$line-height-base: 1.75;
+// == Navigation
+$nav-line-height: 36px;
