@@ -5,17 +5,17 @@ body {
   height: 100%;
   min-height: 35rem;
   position: relative;
-  font-family: 'Source Sans Pro';
   font-weight: 300; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Merriweather';
-  font-weight: 700; }
+h1 {
+  font-weight: 500;
+  text-align: center;
+  color: transparent !important;
+  -webkit-text-stroke: 1.5px #fff;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase; }
 
 video {
   position: fixed;
@@ -28,6 +28,12 @@ video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   z-index: 0; }
+
+#mc_embed_signup label {
+  font-family: 'Montserrat', sans-serif; }
+
+#mc_embed_signup .button {
+  margin-top: 20px !important; }
 
 @media (pointer: coarse) and (hover: none) {
   body {
@@ -42,7 +48,7 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
+  background-color: #464344;
   opacity: 0.7;
   z-index: 1; }
 
@@ -61,17 +67,15 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(187, 183, 131, 0.8);
   -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right; }
 
-.masthead .masthead-content h1 {
-  font-size: 2.5rem; }
-
 .masthead .masthead-content p {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  font-family: "Playfair Display", serif; }
 
 .masthead .masthead-content p strong {
   font-weight: 700; }
@@ -102,11 +106,7 @@ video {
     transform-origin: top right; }
   .masthead .masthead-content {
     padding-left: 3rem;
-    padding-right: 10rem; }
-  .masthead .masthead-content h1 {
-    font-size: 3.5rem; }
-  .masthead .masthead-content p {
-    font-size: 1.3rem; } }
+    padding-right: 10rem; } }
 
 .social-icons {
   position: absolute;
@@ -127,7 +127,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(187, 183, 131, 0.8);
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -157,9 +157,7 @@ video {
     font-size: 2rem;
     line-height: 4rem;
     height: 4rem;
-    width: 4rem; }
-  .social-icons ul > li > a:hover {
-    background-color: #002E66; } }
+    width: 4rem; } }
 
 .btn-secondary {
   background-color: #cd9557;
