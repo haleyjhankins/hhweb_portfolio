@@ -1,7 +1,7 @@
 ## Developer Notes ##
 This module uses Gulp for compression of the assets within it.
 
-**DO NOT STORE FILES DIRECTLY INTO /dist!  
+IMPORTANT:**DO NOT STORE FILES DIRECTLY INTO /dist!  
 This folder should be generated based on assets in the other folders. Failing to head this message can result in lost files after a `gulp clean`**
 
 When you are making changes to any of the JS files you will need to recreate the dist/js/bundle.min.js . There are a few ways to do this.  
